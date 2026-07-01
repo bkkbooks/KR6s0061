@@ -1,0 +1,54 @@
+canonical_identifier: bkk:krp/KR6s0061/v1
+canonical_location: https://kanripo.org/bkk/KR6s0061/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 御製佛賦
+  identifiers:
+    alt_id:
+    - C073n1679
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/C/C073/C073n1679.xml
+    old_id: C073n1679
+  edition:
+    short: bkk
+editions:
+- short: 中華
+  label: 中華
+  source_xml_id: wit.orig
+- short: C
+assets:
+  parts:
+  - {seq: 0, filename: KR6s0061_000.yaml, hash: 'sha256:b416419648c135de1f72a99ef72b18d79b3ea92344d297210bfdf1860909fcc2'}
+  - {seq: 1, filename: KR6s0061_001.yaml, hash: 'sha256:092f36ec808e02020b49faad5e13ca81fcad5434009257ca5667c61a14cb7549'}
+  - {seq: 2, filename: KR6s0061_002.yaml, hash: 'sha256:2d84c8419e79e387aebce230a81b74529e95dc743bbc68f3ca7a66927fd182ee'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6s0061_001.markers.yaml, hash: 'sha256:a6ce81553ba11b119befdfbcef1656f046f1432eb25b6336049a560496f34e2b'}
+  - {seq: 2, role: markers, filename: assets/KR6s0061_002.markers.yaml, hash: 'sha256:5bbcd7189b9329213e1fbd7c3961053687b28feb494ad900d25ae17096646700'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6s0061_C_001-juan-start
+    span:
+    - body
+    - 0
+    - 7057
+  label: 御製佛賦以存意空覩無漏為理次第用韻　宗
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6s0061_C_002-juan-start
+    span:
+    - body
+    - 0
+    - 8610
+  label: 御製佛賦以悲雨敷說聲廣聞德為韻
+  type: juan
+  level: 1
+hash: sha256:79a4f553c2d1a151a9a9da1961fc62aad1e20ef59578cb07f626be244087cbbc
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

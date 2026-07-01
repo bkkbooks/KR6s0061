@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6s0061/c/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 御製佛賦
+  edition:
+    short: c
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/C/C073/C073n1679.xml
+    old_id: C073n1679
+hash: sha256:b416419648c135de1f72a99ef72b18d79b3ea92344d297210bfdf1860909fcc2
